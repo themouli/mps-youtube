@@ -1,4 +1,4 @@
-""" Module for holding globals that are needed throught mps-youtube. """
+""" Module for holding globals that are needed through out mps-youtube. """
 
 import os
 import sys
@@ -143,7 +143,7 @@ text = {
     'current pl': "This is the current playlist. Use *save <name>* to save"
                   " it",
     'current pl_': (c.g, c.w),
-    'help topic': ("  Enter *help <topic>* for specific help:"),
-    'help topic_': (c.y, c.w),
+    'help topic': ("  Enter *help <topic>* or *h <topic>* for specific help:"),
+    'help topic_': (c.y, c.w, c.y, c.w),
     'songs rm': '*&&* tracks removed &&',
     'songs rm_': (c.y, c.w)}

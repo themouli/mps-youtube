@@ -155,6 +155,7 @@ def F(key, nb=0, na=0, textlib=None):
 
     if percent_fmt:
         text = re.sub(r"\*", r"%s", text) % percent_fmt
+    print(text)
 
     text = text.replace("&&", "%s")
 
